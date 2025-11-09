@@ -7,4 +7,6 @@ add_executable(flux_pl main.cpp
         tokenizer/token/token.hpp
         tokenizer/token/token.cpp
         tokenizer/tokenizer.hpp
-        tokenizer/tokenizer.cpp)
+        tokenizer/tokenizer.cpp
+        loader/loader.hpp
+        loader/loader.cpp)
