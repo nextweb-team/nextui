@@ -27,7 +27,7 @@ private:
 
 public:
     Token(const std::string& type, const std::string& value);
-    std::vector<Token> tokenize(std::string untokenizedStr);
+
 
     friend std::ostream& operator<<(std::ostream& os, const Token& obj);
 };

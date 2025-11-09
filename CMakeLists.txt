@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(flux_pl main.cpp
         tokenizer/token/token.hpp
-        tokenizer/token/token.cpp)
+        tokenizer/token/token.cpp
+        tokenizer/tokenizer.hpp
+        tokenizer/tokenizer.cpp)
