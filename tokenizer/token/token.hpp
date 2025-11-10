@@ -28,7 +28,8 @@ private:
 public:
     Token(const std::string& type, const std::string& value);
 
-
+    std::string getType();
+    std::string getValue();
     friend std::ostream& operator<<(std::ostream& os, const Token& obj);
 };
 

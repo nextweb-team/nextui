@@ -7,5 +7,13 @@ Token::Token(const std::string& type, const std::string& value)
     this->value = value;
 }
 
+std::string Token::getType()
+{
+    return this->type;
+}
 
 
+std::string Token::getValue()
+{
+    return this->value;
+}
